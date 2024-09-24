@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("carbonfiber.jpg");
+    background-position: right top;
+    background-repeat: repeat;
+}
+
+.header {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profilePic {   
+    max-width: 100%;
+    height: 200px;
+    border-radius: 45%;
+}
+
+div.userName {
+
+    font-size: 30px;
+    
+
+}
+
+
+
+
+.linkedinLogo {
+
+    width: 75px;
+    height: 75px;
+    padding-inline: 20px;
+    
+}
+
+.linkedinLogo:hover {
+
+    opacity: 75%;
+    border: solid yellow 1px;
+    border-radius: 10%;
+
+}
+
+.instagramLogo {
+
+    width: 75px;
+    height: 75px;
+    padding-inline: 20px;
+
+}
+
+.instagramLogo:hover {
+
+    opacity: 75%;
+    border: solid yellow 1px;
+    border-radius: 10%;
+}
+
+.githubLogo {
+
+    width: 75px;
+    height: 75px;
+    padding-inline: 20px;
+
+}
+
+.githubLogo:hover {
+
+    opacity: 75%;
+    border: solid yellow 1px;
+    border-radius: 10%;
+}
+
+
+.onlyfansLogo {
+
+    width: 75px;
+    height: 75px;
+    padding-inline: 20px;
+
+}
+
+.onlyfansLogo:hover {
+
+    opacity: 75%;
+    border: solid yellow 1px;
+    border-radius: 10%;
+}

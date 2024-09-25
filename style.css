@@ -4,39 +4,46 @@ body {
 }
 
 html {
-    display: table;
-    margin: auto;
+    
+    margin: 0;
 }
 
 body {
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    align-content: center;
     background-image: url("images/carbonfiber.jpg");
     background-repeat: repeat;
 }
 
-.header {
-    color: azure;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .profilePic {
-    max-width: 100%;
+        
     height: 200px;
     border-radius: 45%;
 }
+
+.header {
+    
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .userName {
     font-size: 30px;
 }
 
 
+div.myLinks {
 
+    display: flexbox;
+}
 div.myLinks img{
-
     width: 75px;
     height: 75px;
-    padding-inline: 20px;
+    margin-inline-start: 35px;
+    padding-inline: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
 
 }
 
@@ -49,6 +56,20 @@ div.myLinks img:hover{
     border-radius: 10%;
 
 
+}
+
+.break {
+
+    flex-basis: 100%;
+    width: 100%;
+    height: 0;
+}
+
+
+div.aboutMe {
+    width: 100%;
+    flex-wrap: wrap;
+    color: white;
 }
 
 /*

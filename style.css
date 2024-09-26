@@ -88,6 +88,7 @@ div.break {
 }
 
 div.aboutMe, div.contact {
+    width: 400px;
     display: table;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;    

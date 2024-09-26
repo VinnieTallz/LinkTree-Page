@@ -34,7 +34,7 @@ div.topContainer {
 
 
 div.myLinks {             
-    width: 2750px;
+    width: 275px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,8 +48,7 @@ div.myLinks img{
     width: 75px;
     height: 75px;
     padding-inline: 12px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 5px;
 }
 
 
@@ -80,6 +79,8 @@ div.myLinks img:hover{
 
 .myLinks a:hover .linktext {
     opacity: 1;
+    font-style: normal;
+    text-decoration: none;
   }
 
 div.break {

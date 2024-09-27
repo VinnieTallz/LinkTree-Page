@@ -74,6 +74,12 @@ div.myLinks img:hover{
     opacity: 35%;
 }
 
+.myLinks a:hover .linktext {
+    opacity: 1;
+    font-style: normal;
+    text-decoration: none;
+}
+
 .linktext {
     position: relative;
     text-align: center;
@@ -81,19 +87,17 @@ div.myLinks img:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: ;
     color: white;
     border-radius: 5px;
     transition: opacity 0.6s ease;
 }
 
-.myLinks a:hover .linktext {
-    opacity: 1;
-    font-style: normal;
+.myLinks a{
     text-decoration: none;
 }
+
 
 div.break {
     width: 100%;

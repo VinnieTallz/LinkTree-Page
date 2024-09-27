@@ -126,3 +126,6 @@ div.aboutMe, div.contact {
     font-weight: lighter;
     color: white;    
 }
+table.caption{
+    color: red;
+}

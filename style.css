@@ -129,3 +129,9 @@ div.aboutMe, div.contact {
 table.caption{
     color: red;
 }
+
+@media screen and (max-width:30em) {
+    .link {
+        scale: 90%;
+    }
+}

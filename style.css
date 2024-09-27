@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    background: url("images/carbonfiber.jpg") rgb(34, 255, 0);
+    background: url("images/carbonfiber.jpg") rgb(252, 248, 3);
     background-blend-mode: multiply;
     background-repeat: repeat;
     justify-content: center;
@@ -31,8 +31,8 @@ body::after {
 div.topContainer {
     display: flex;
     height: 275px;
-    width: 500px;
-    justify-content: space-evenly;
+    width: 460px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -43,7 +43,8 @@ div.topContainer {
 }
 
 .header {
-    width: 350px;
+    width: 200px;
+    padding-left: 30px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -59,6 +60,7 @@ div.myLinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-right: 15px;
 }
 
 div.myLinks img{

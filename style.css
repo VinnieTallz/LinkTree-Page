@@ -30,10 +30,11 @@ body::after {
 
 div.topContainer {
     display: flex;
-    height: 275px;
-    width: 460px;
+    height: 260px;
+    width: 450px;
     justify-content: center;
     align-items: center;
+    scale: 0.9;
 }
 
 .profilePic {
@@ -60,7 +61,7 @@ div.myLinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 15px;
+    
 }
 
 div.myLinks img{
